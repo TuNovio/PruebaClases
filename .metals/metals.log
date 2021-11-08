@@ -1,0 +1,525 @@
+[0m2021.11.08 15:41:24 INFO  Started: Metals version 0.10.9 in workspace 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase' for client Visual Studio Code 1.62.0.[0m
+[0m2021.11.08 15:41:25 INFO  time: initialize in 1.11s[0m
+[0m2021.11.08 15:41:25 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.08 15:41:26 WARN  no build target for: D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Main.scala[0m
+[0m2021.11.08 15:41:28 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.08 15:41:29 INFO  running 'C:\Program Files\Java\jdk-17.0.1\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\USER\AppData\Local\Temp\metals4639652440642640520\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.11.08 15:41:30 INFO  time: code lens generation in 4.11s[0m
+[0m2021.11.08 15:41:30 INFO  time: code lens generation in 1.12s[0m
+[0m2021.11.08 15:41:30 ERROR WARNING: A terminally deprecated method in java.lang.System has been called[0m
+[0m2021.11.08 15:41:30 ERROR WARNING: System::setSecurityManager has been called by sbt.TrapExit$ (file:/C:/Users/USER/.sbt/boot/scala-2.12.14/org.scala-sbt/sbt/1.5.5/run_2.12-1.5.5.jar)[0m
+[0m2021.11.08 15:41:30 ERROR WARNING: Please consider reporting this to the maintainers of sbt.TrapExit$[0m
+[0m2021.11.08 15:41:30 ERROR WARNING: System::setSecurityManager will be removed in a future release[0m
+[0m2021.11.08 15:41:30 INFO  [info] welcome to sbt 1.5.5 (Oracle Corporation Java 17.0.1)[0m
+[0m2021.11.08 15:41:32 INFO  [info] loading settings for project miclase-build-build from metals.sbt ...[0m
+[0m2021.11.08 15:41:32 INFO  [info] loading project definition from D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\project\project[0m
+[0m2021.11.08 15:41:35 INFO  [info] loading settings for project miclase-build from metals.sbt ...[0m
+[0m2021.11.08 15:41:35 INFO  [info] loading project definition from D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\project[0m
+[0m2021.11.08 15:41:38 INFO  [success] Generated .bloop\miclase-build.json[0m
+[0m2021.11.08 15:41:38 INFO  [success] Total time: 2 s, completed 8/11/2021, 3:41:38 p.Â m.[0m
+[0m2021.11.08 15:41:39 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.11.08 15:41:39 INFO  [info] set current project to miclase (in build file:/D:/Aplicaciones%20cursos/scala/clases/clasesScala/miclase/)[0m
+[0m2021.11.08 15:41:39 INFO  [success] Generated .bloop\root.json[0m
+[0m2021.11.08 15:41:39 INFO  [success] Generated .bloop\root-test.json[0m
+[0m2021.11.08 15:41:39 INFO  [success] Total time: 0 s, completed 8/11/2021, 3:41:39 p.Â m.[0m
+[0m2021.11.08 15:41:40 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+[0m2021.11.08 15:41:40 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32786'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'd:\Aplicaciones cursos\scala\clases\clasesScala\miclase\.bloop'...
+[0m[32m[D][0m Loading project from 'd:\Aplicaciones cursos\scala\clases\clasesScala\miclase\.bloop\root-test.json'
+[0m[32m[D][0m Loading project from 'd:\Aplicaciones cursos\scala\clases\clasesScala\miclase\.bloop\root.json'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32786...
+The server is listening for incoming connections at tcp://127.0.0.1:32786...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.08 15:41:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.11.08 15:41:40 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 31426'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:31426...
+The server is listening for incoming connections at tcp://127.0.0.1:31426...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.08 15:41:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.11.08 15:41:40 INFO  time: Connected to build server in 0.65s[0m
+[0m2021.11.08 15:41:40 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.08 15:41:43 INFO  time: indexed workspace in 3.15s[0m
+[0m2021.11.08 15:41:43 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:41:45 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.08 15:41:46 INFO  compiling root-test (1 scala source)[0m
+[0m2021.11.08 15:41:46 INFO  time: compiled root in 2.54s[0m
+[0m2021.11.08 15:41:46 INFO  time: compiled root-test in 0.42s[0m
+[0m2021.11.08 15:42:17 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:42:17 INFO  time: compiled root in 54ms[0m
+[0m2021.11.08 15:43:06 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:43:06 INFO  time: compiled root in 0.2s[0m
+Exception in thread "pool-5-thread-1" java.util.NoSuchElementException: head of empty String
+	at scala.collection.StringOps$.head$extension(StringOps.scala:1129)
+	at dotty.tools.dotc.semanticdb.Scala3$StringOps$.isJavaIdent(Scala3.scala:405)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addName$1(SemanticdbSymbols.scala:92)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:127)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:137)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.visit$1(CompletionProvider.scala:116)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$5(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch$$anonfun$1(CompletionProvider.scala:70)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch(CompletionProvider.scala:70)
+	at scala.meta.internal.pc.CompletionProvider.filterInteresting(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:44)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:166)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-5-thread-2" java.util.NoSuchElementException: head of empty String
+	at scala.collection.StringOps$.head$extension(StringOps.scala:1129)
+	at dotty.tools.dotc.semanticdb.Scala3$StringOps$.isJavaIdent(Scala3.scala:405)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addName$1(SemanticdbSymbols.scala:92)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:127)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:137)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.visit$1(CompletionProvider.scala:116)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$5(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch$$anonfun$1(CompletionProvider.scala:70)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch(CompletionProvider.scala:70)
+	at scala.meta.internal.pc.CompletionProvider.filterInteresting(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:44)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:166)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-5-thread-3" java.util.NoSuchElementException: head of empty String
+	at scala.collection.StringOps$.head$extension(StringOps.scala:1129)
+	at dotty.tools.dotc.semanticdb.Scala3$StringOps$.isJavaIdent(Scala3.scala:405)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addName$1(SemanticdbSymbols.scala:92)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:127)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:137)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.visit$1(CompletionProvider.scala:116)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$5(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch$$anonfun$1(CompletionProvider.scala:70)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch(CompletionProvider.scala:70)
+	at scala.meta.internal.pc.CompletionProvider.filterInteresting(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:44)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:166)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-5-thread-4" java.util.NoSuchElementException: head of empty String
+	at scala.collection.StringOps$.head$extension(StringOps.scala:1129)
+	at dotty.tools.dotc.semanticdb.Scala3$StringOps$.isJavaIdent(Scala3.scala:405)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addName$1(SemanticdbSymbols.scala:92)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:127)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:137)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.visit$1(CompletionProvider.scala:116)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$5(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch$$anonfun$1(CompletionProvider.scala:70)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch(CompletionProvider.scala:70)
+	at scala.meta.internal.pc.CompletionProvider.filterInteresting(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:44)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:166)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "pool-5-thread-5" java.util.NoSuchElementException: head of empty String
+	at scala.collection.StringOps$.head$extension(StringOps.scala:1129)
+	at dotty.tools.dotc.semanticdb.Scala3$StringOps$.isJavaIdent(Scala3.scala:405)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addName$1(SemanticdbSymbols.scala:92)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addDescriptor$1(SemanticdbSymbols.scala:127)
+	at scala.meta.internal.pc.SemanticdbSymbols$.addSymName(SemanticdbSymbols.scala:137)
+	at scala.meta.internal.pc.SemanticdbSymbols$.symbolName(SemanticdbSymbols.scala:79)
+	at scala.meta.internal.pc.CompletionProvider.visit$1(CompletionProvider.scala:116)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$5(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch$$anonfun$1(CompletionProvider.scala:70)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at scala.meta.internal.pc.CompletionProvider.enrichWithSymbolSearch(CompletionProvider.scala:70)
+	at scala.meta.internal.pc.CompletionProvider.filterInteresting(CompletionProvider.scala:138)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:44)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:166)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m2021.11.08 15:44:10 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:44:10 INFO  time: compiled root in 0.16s[0m
+[0m2021.11.08 15:44:31 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:44:31 INFO  time: compiled root in 0.15s[0m
+[0m2021.11.08 15:44:50 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:44:50 INFO  time: compiled root in 0.14s[0m
+[0m2021.11.08 15:45:11 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:45:11 INFO  time: compiled root in 0.14s[0m
+[0m2021.11.08 15:46:42 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:46:42 INFO  time: compiled root in 0.14s[0m
+nov. 08, 2021 3:47:22 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 848
+[0m2021.11.08 15:47:22 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:47:22 INFO  time: compiled root in 0.11s[0m
+[0m2021.11.08 15:47:30 INFO  D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\prueba.scala:16:28: stale bloop error: Not found: type Alumno
+        var miAlumno = new Alumno(nombre = "Alfonso", apellido = "Gomajoa", edad = 21)
+                           ^^^^^^[0m
+[0m2021.11.08 15:47:30 INFO  D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\prueba.scala:16:28: stale bloop error: Not found: type Alumno
+        var miAlumno = new Alumno(nombre = "Alfonso", apellido = "Gomajoa", edad = 21)
+                           ^^^^^^[0m
+[0m2021.11.08 15:47:32 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:47:32 INFO  time: compiled root in 55ms[0m
+[0m2021.11.08 15:47:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:47:45 INFO  time: compiled root in 0.14s[0m
+[0m2021.11.08 15:48:04 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:48:04 INFO  time: compiled root in 0.14s[0m
+[0m2021.11.08 15:48:10 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:48:10 INFO  time: compiled root in 0.14s[0m
+[0m2021.11.08 15:48:11 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 6m 31.359s)[0m
+[0m2021.11.08 15:48:13 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 15:48:13 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 15:48:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 15:48:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 15:48:13 INFO  Starting debug proxy for [Principal][0m
+[0m2021.11.08 15:48:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:63436 .[0m
+[0m2021.11.08 15:48:15 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 15:48:15 INFO  Canceling debug proxy for [Principal][0m
+[0m2021.11.08 15:48:15 INFO  Closing debug server tcp://0.0.0.0:63433[0m
+[0m2021.11.08 15:48:54 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:48:54 INFO  time: compiled root in 0.18s[0m
+[0m2021.11.08 15:49:01 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:49:01 INFO  time: compiled root in 93ms[0m
+nov. 08, 2021 3:49:02 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1077
+nov. 08, 2021 3:49:11 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1084
+nov. 08, 2021 3:49:25 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1091
+[0m2021.11.08 15:49:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:49:45 INFO  time: compiled root in 0.15s[0m
+[0m2021.11.08 15:49:47 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:49:47 INFO  time: compiled root in 0.12s[0m
+[0m2021.11.08 15:49:52 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:49:52 INFO  time: compiled root in 0.11s[0m
+[0m2021.11.08 15:50:17 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:50:17 ERROR not found: D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\tempCodeRunnerFile.scala[0m
+[0m2021.11.08 15:50:17 INFO  time: compiled root in 22ms[0m
+[0m2021.11.08 15:50:25 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:50:25 INFO  time: compiled root in 0.12s[0m
+[0m2021.11.08 15:50:27 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:50:27 INFO  time: compiled root in 0.11s[0m
+nov. 08, 2021 3:50:28 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1242
+[0m2021.11.08 15:50:31 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:50:31 INFO  time: compiled root in 0.1s[0m
+nov. 08, 2021 3:50:33 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1263
+nov. 08, 2021 3:50:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1271
+[0m2021.11.08 15:51:17 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:51:17 INFO  time: compiled root in 0.12s[0m
+[0m2021.11.08 15:51:24 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:51:24 INFO  time: compiled root in 0.11s[0m
+[0m2021.11.08 15:51:59 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 10m 19.108s)[0m
+[0m2021.11.08 15:52:01 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 15:52:01 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 15:52:01 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 15:52:01 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 15:52:01 INFO  Starting debug proxy for [Principal][0m
+[0m2021.11.08 15:52:02 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53148 .[0m
+[0m2021.11.08 15:52:02 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 15:52:01 INFO  Canceling debug proxy for [Principal][0m
+[0m2021.11.08 15:52:02 INFO  Closing debug server tcp://0.0.0.0:53145[0m
+[0m2021.11.08 15:52:12 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:52:12 INFO  time: compiled root in 45ms[0m
+[0m2021.11.08 15:52:20 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:52:20 INFO  time: compiled root in 0.11s[0m
+[0m2021.11.08 15:52:22 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 10m 42.088s)[0m
+[0m2021.11.08 15:52:24 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 15:52:24 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 15:52:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 15:52:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 15:52:25 INFO  Starting debug proxy for [Principal][0m
+[0m2021.11.08 15:52:25 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53165 .[0m
+[0m2021.11.08 15:52:25 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 15:52:25 INFO  Canceling debug proxy for [Principal][0m
+[0m2021.11.08 15:52:25 INFO  Closing debug server tcp://0.0.0.0:53162[0m
+[0m2021.11.08 15:52:54 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:52:54 INFO  time: compiled root in 0.12s[0m
+[0m2021.11.08 15:52:55 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 11m 15.514s)[0m
+[0m2021.11.08 15:52:55 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 15:52:55 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 15:52:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 15:52:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 15:52:57 INFO  Starting debug proxy for [Principal][0m
+[0m2021.11.08 15:52:58 INFO  Trying to attach to remote debuggee VM 127.0.0.1:53180 .[0m
+[0m2021.11.08 15:52:58 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 15:52:57 INFO  Canceling debug proxy for [Principal][0m
+[0m2021.11.08 15:52:58 INFO  Closing debug server tcp://0.0.0.0:53177[0m
+[0m2021.11.08 15:54:11 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:54:11 INFO  time: compiled root in 33ms[0m
+[0m2021.11.08 15:54:26 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:54:26 INFO  time: compiled root in 61ms[0m
+[0m2021.11.08 15:54:53 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:54:53 INFO  time: compiled root in 37ms[0m
+[0m2021.11.08 15:55:00 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:55:00 INFO  time: compiled root in 79ms[0m
+[0m2021.11.08 15:55:16 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:55:16 INFO  time: compiled root in 80ms[0m
+[0m2021.11.08 15:55:35 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:55:35 INFO  time: compiled root in 78ms[0m
+[0m2021.11.08 15:55:42 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:55:42 INFO  time: compiled root in 89ms[0m
+[0m2021.11.08 15:55:54 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:55:54 INFO  time: compiled root in 96ms[0m
+[0m2021.11.08 15:55:57 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:55:57 INFO  time: compiled root in 91ms[0m
+nov. 08, 2021 3:56:09 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2053
+[0m2021.11.08 15:56:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:56:45 INFO  time: compiled root in 49ms[0m
+nov. 08, 2021 3:57:38 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2206
+nov. 08, 2021 3:58:44 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2222
+[0m2021.11.08 15:58:44 ERROR code navigation does not work for the file 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Prueba.scala' because the SemanticDB file 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\.bloop\root\bloop-bsp-clients-classes\classes-Metals-F_zU1RstQvieGSmE2xnipQ==\META-INF\semanticdb\src\main\scala\Prueba.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.11.08 15:58:44 ERROR code navigation does not work for the file 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Prueba.scala' because the SemanticDB file 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\.bloop\root\bloop-bsp-clients-classes\classes-Metals-F_zU1RstQvieGSmE2xnipQ==\META-INF\semanticdb\src\main\scala\Prueba.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.11.08 15:58:48 ERROR code navigation does not work for the file 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Prueba.scala' because the SemanticDB file 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\.bloop\root\bloop-bsp-clients-classes\classes-Metals-F_zU1RstQvieGSmE2xnipQ==\META-INF\semanticdb\src\main\scala\Prueba.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.11.08 15:58:48 ERROR code navigation does not work for the file 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Prueba.scala' because the SemanticDB file 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\.bloop\root\bloop-bsp-clients-classes\classes-Metals-F_zU1RstQvieGSmE2xnipQ==\META-INF\semanticdb\src\main\scala\Prueba.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.11.08 15:58:58 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:58:58 INFO  time: compiled root in 0.13s[0m
+[0m2021.11.08 15:58:58 ERROR Unexpected error when compiling root: 'D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\tempCodeRunnerFile.scala (El sistema no puede encontrar el archivo especificado)'[0m
+[0m2021.11.08 15:59:08 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:59:08 INFO  time: compiled root in 0.11s[0m
+nov. 08, 2021 3:59:12 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2256
+nov. 08, 2021 3:59:13 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2265
+nov. 08, 2021 3:59:15 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2275
+nov. 08, 2021 3:59:18 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2283
+[0m2021.11.08 15:59:49 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:59:49 INFO  time: compiled root in 43ms[0m
+[0m2021.11.08 15:59:57 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 15:59:57 INFO  time: compiled root in 0.11s[0m
+[0m2021.11.08 16:00:02 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:00:02 INFO  time: compiled root in 0.11s[0m
+[0m2021.11.08 16:00:18 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:00:18 INFO  time: compiled root in 54ms[0m
+[0m2021.11.08 16:00:26 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:00:26 INFO  time: compiled root in 36ms[0m
+[0m2021.11.08 16:00:28 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:00:28 INFO  time: compiled root in 33ms[0m
+[0m2021.11.08 16:00:34 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:00:34 INFO  time: compiled root in 0.57s[0m
+[0m2021.11.08 16:00:38 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:00:38 INFO  time: compiled root in 0.25s[0m
+[0m2021.11.08 16:00:40 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:00:40 INFO  time: compiled root in 0.23s[0m
+[0m2021.11.08 16:00:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:00:45 INFO  time: compiled root in 0.11s[0m
+nov. 08, 2021 4:00:46 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2563
+[0m2021.11.08 16:01:40 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:01:40 INFO  time: compiled root in 90ms[0m
+[0m2021.11.08 16:02:32 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:02:32 INFO  time: compiled root in 87ms[0m
+[0m2021.11.08 16:02:35 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:02:35 INFO  time: compiled root in 86ms[0m
+[0m2021.11.08 16:04:02 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:04:02 INFO  time: compiled root in 42ms[0m
+[0m2021.11.08 16:04:09 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:04:09 INFO  time: compiled root in 81ms[0m
+[0m2021.11.08 16:04:16 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:04:16 INFO  time: compiled root in 80ms[0m
+[0m2021.11.08 16:07:32 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:07:32 INFO  time: compiled root in 36ms[0m
+[0m2021.11.08 16:07:40 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:07:40 INFO  time: compiled root in 89ms[0m
+[0m2021.11.08 16:08:23 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:08:23 INFO  time: compiled root in 0.1s[0m
+[0m2021.11.08 16:08:28 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:08:28 INFO  time: compiled root in 93ms[0m
+[0m2021.11.08 16:08:41 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:08:41 INFO  time: compiled root in 37ms[0m
+[0m2021.11.08 16:08:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:08:45 INFO  time: compiled root in 88ms[0m
+[0m2021.11.08 16:09:08 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:09:08 INFO  time: compiled root in 60ms[0m
+[0m2021.11.08 16:09:35 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:09:35 INFO  time: compiled root in 99ms[0m
+[0m2021.11.08 16:09:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 27m 56.968s)[0m
+[0m2021.11.08 16:09:37 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 16:09:37 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 16:09:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 16:09:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 16:09:38 INFO  Starting debug proxy for [miVehiculo][0m
+[0m2021.11.08 16:09:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60354 .[0m
+[0m2021.11.08 16:09:39 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 16:09:38 INFO  Canceling debug proxy for [miVehiculo][0m
+[0m2021.11.08 16:09:39 INFO  Closing debug server tcp://0.0.0.0:60350[0m
+[0m2021.11.08 16:11:11 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:11:11 INFO  time: compiled root in 0.22s[0m
+[0m2021.11.08 16:11:15 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:11:15 INFO  time: compiled root in 84ms[0m
+[0m2021.11.08 16:11:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:11:29 INFO  time: compiled root in 50ms[0m
+[0m2021.11.08 16:11:46 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:11:46 INFO  time: compiled root in 83ms[0m
+[0m2021.11.08 16:12:09 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:12:09 INFO  time: compiled root in 89ms[0m
+[0m2021.11.08 16:12:22 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:12:22 INFO  time: compiled root in 93ms[0m
+[0m2021.11.08 16:12:25 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:12:25 INFO  time: compiled root in 90ms[0m
+[0m2021.11.08 16:12:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:12:29 INFO  time: compiled root in 90ms[0m
+[0m2021.11.08 16:12:38 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:12:38 INFO  time: compiled root in 35ms[0m
+[0m2021.11.08 16:12:40 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:12:40 INFO  time: compiled root in 89ms[0m
+[0m2021.11.08 16:12:42 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 31m 2.528s)[0m
+[0m2021.11.08 16:12:42 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 16:12:42 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 16:12:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 16:12:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 16:12:43 INFO  Starting debug proxy for [miVehiculo][0m
+[0m2021.11.08 16:12:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:49306 .[0m
+[0m2021.11.08 16:12:44 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 16:12:43 INFO  Canceling debug proxy for [miVehiculo][0m
+[0m2021.11.08 16:12:44 INFO  Closing debug server tcp://0.0.0.0:49302[0m
+[0m2021.11.08 16:12:51 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:12:51 INFO  time: compiled root in 0.1s[0m
+[0m2021.11.08 16:13:10 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:13:10 INFO  time: compiled root in 84ms[0m
+nov. 08, 2021 4:13:14 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3604
+nov. 08, 2021 4:13:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3612
+nov. 08, 2021 4:13:19 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3621
+[0m2021.11.08 16:22:37 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:22:37 INFO  time: compiled root in 70ms[0m
+[0m2021.11.08 16:22:42 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:22:42 INFO  time: compiled root in 54ms[0m
+nov. 08, 2021 4:22:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 18 is not a valid line number, allowed [0..16]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1554)
+	... 15 more
+
+[0m2021.11.08 16:23:11 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:23:11 INFO  time: compiled root in 70ms[0m
+[0m2021.11.08 16:23:34 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:23:34 INFO  time: compiled root in 57ms[0m
+[0m2021.11.08 16:23:56 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:23:56 INFO  time: compiled root in 54ms[0m
+[0m2021.11.08 16:24:12 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:24:12 INFO  time: compiled root in 52ms[0m
+[0m2021.11.08 16:24:21 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:24:21 INFO  time: compiled root in 51ms[0m
+[0m2021.11.08 16:24:43 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:24:43 INFO  time: compiled root in 48ms[0m
+[0m2021.11.08 16:24:48 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:24:48 INFO  time: compiled root in 47ms[0m
+[0m2021.11.08 16:24:56 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:24:56 INFO  time: compiled root in 55ms[0m
+[0m2021.11.08 16:25:05 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:25:05 INFO  time: compiled root in 49ms[0m
+[0m2021.11.08 16:25:13 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:25:13 INFO  time: compiled root in 46ms[0m
+[0m2021.11.08 16:25:15 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:25:15 INFO  time: compiled root in 43ms[0m
+[0m2021.11.08 16:25:29 INFO  D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Vehiculo.scala:5:13: stale bloop error: '(' expected, but '.' found
+        this.tipo = nTipo
+            ^[0m
+[0m2021.11.08 16:25:29 INFO  D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Vehiculo.scala:5:9: stale bloop error: None of the overloaded alternatives of constructor Vehiculo in class Vehiculo with types
+ (nTipo: String, nCosto: Int): Vehiculo
+ (): Vehiculo
+match arguments (Null)
+        this.tipo = nTipo
+        ^[0m
+[0m2021.11.08 16:25:29 INFO  D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Vehiculo.scala:5:13: stale bloop error: '(' expected, but '.' found
+        this.tipo = nTipo
+            ^[0m
+[0m2021.11.08 16:25:29 INFO  D:\Aplicaciones cursos\scala\clases\clasesScala\miclase\src\main\scala\Vehiculo.scala:5:9: stale bloop error: None of the overloaded alternatives of constructor Vehiculo in class Vehiculo with types
+ (nTipo: String, nCosto: Int): Vehiculo
+ (): Vehiculo
+match arguments (Null)
+        this.tipo = nTipo
+        ^[0m
+[0m2021.11.08 16:25:31 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:25:31 INFO  time: compiled root in 44ms[0m
+[0m2021.11.08 16:25:46 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:25:46 INFO  time: compiled root in 45ms[0m
+[0m2021.11.08 16:25:54 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:25:54 INFO  time: compiled root in 43ms[0m
