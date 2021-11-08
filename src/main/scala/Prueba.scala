@@ -26,7 +26,7 @@ edad es la edad del alumno
 */
 object Principal{
 
-    def main(args: Array[String]): Unit={
+    def main(args: Array[String])={
         var miAlumno = new Alumno(nombre = "Alfonso", apellido = "Gomajoa", edad = 21)
         var asignado = miAlumno.asignarVehiculo(nTipo = "Carro particular", nCosto = 500)
         println(asignado)
