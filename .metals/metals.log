@@ -1029,3 +1029,39 @@ nov. 08, 2021 4:50:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCance
 WARNING: Unmatched cancel notification for request id 7428
 nov. 08, 2021 4:50:56 P. M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+nov. 08, 2021 4:58:48 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7481
+[0m2021.11.08 16:59:07 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:59:07 INFO  time: compiled root in 85ms[0m
+[0m2021.11.08 16:59:09 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 1h 17m 29.336s)[0m
+[0m2021.11.08 16:59:09 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 16:59:09 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 16:59:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 16:59:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 16:59:10 INFO  Starting debug proxy for [Principal][0m
+[0m2021.11.08 16:59:11 INFO  Trying to attach to remote debuggee VM 127.0.0.1:65239 .[0m
+[0m2021.11.08 16:59:11 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 16:59:10 INFO  Canceling debug proxy for [Principal][0m
+[0m2021.11.08 16:59:11 INFO  Closing debug server tcp://0.0.0.0:65235[0m
+nov. 08, 2021 4:59:17 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7569
+nov. 08, 2021 4:59:19 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7576
+nov. 08, 2021 4:59:34 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7592
+nov. 08, 2021 4:59:35 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7598
+[0m2021.11.08 16:59:42 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 16:59:42 INFO  time: compiled root in 96ms[0m
+[0m2021.11.08 17:48:17 INFO  time: code lens generation in 6.69s[0m
+[0m2021.11.08 17:48:17 INFO  time: code lens generation in 7.04s[0m
+nov. 08, 2021 5:52:14 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7761
+nov. 08, 2021 5:52:21 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7776
+nov. 08, 2021 5:52:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7815
+[0m2021.11.08 17:53:27 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 17:53:27 INFO  time: compiled root in 82ms[0m
