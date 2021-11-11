@@ -1065,3 +1065,52 @@ nov. 08, 2021 5:52:43 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCance
 WARNING: Unmatched cancel notification for request id 7815
 [0m2021.11.08 17:53:27 INFO  compiling root (1 scala source)[0m
 [0m2021.11.08 17:53:27 INFO  time: compiled root in 82ms[0m
+[0m2021.11.08 17:54:02 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 17:54:02 INFO  time: compiled root in 0.1s[0m
+[0m2021.11.08 17:54:20 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 2h 12m 40.333s)[0m
+[0m2021.11.08 17:54:20 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 17:54:20 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 17:54:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 17:54:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 17:54:22 INFO  Starting debug proxy for [Principal][0m
+[0m2021.11.08 17:54:22 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54240 .[0m
+[0m2021.11.08 17:54:22 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 17:54:22 INFO  Canceling debug proxy for [Principal][0m
+[0m2021.11.08 17:54:22 INFO  Closing debug server tcp://0.0.0.0:54237[0m
+[0m2021.11.08 17:54:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 17:54:29 INFO  time: compiled root in 83ms[0m
+[0m2021.11.08 17:54:32 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 2h 12m 51.914s)[0m
+[0m2021.11.08 17:54:32 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.0:2.0.11
+  not found: C:\Users\USER\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.0\2.0.11\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.0/2.0.11/scala-expression-compiler_3.1.0-2.0.11.pom[0m
+[0m2021.11.08 17:54:32 WARN  Expression evaluation will not work.[0m
+[0m2021.11.08 17:54:32 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2021.11.08 17:54:32 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\USER\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2021.11.08 17:54:33 INFO  Starting debug proxy for [Principal][0m
+[0m2021.11.08 17:54:33 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54257 .[0m
+[0m2021.11.08 17:54:33 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.08 17:54:33 INFO  Canceling debug proxy for [Principal][0m
+[0m2021.11.08 17:54:33 INFO  Closing debug server tcp://0.0.0.0:54252[0m
+[0m2021.11.08 17:54:40 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 17:54:40 INFO  time: compiled root in 83ms[0m
+nov. 08, 2021 5:54:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7892
+nov. 08, 2021 5:54:57 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7906
+[0m2021.11.08 18:09:30 INFO  compiling root (1 scala source)[0m
+[0m2021.11.08 18:09:30 INFO  time: compiled root in 0.1s[0m
+nov. 08, 2021 6:09:47 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8019
+nov. 08, 2021 6:09:51 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8025
+nov. 08, 2021 6:09:56 P. M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8032
+[0m2021.11.08 18:19:35 INFO  shutting down Metals[0m
+[0m2021.11.08 18:19:35 INFO  Shut down connection with build server.[0m
+[0m2021.11.08 18:19:35 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...

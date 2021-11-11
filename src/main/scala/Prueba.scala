@@ -7,6 +7,7 @@ class Alumno(nombre:String, apellido:String, edad:Int){
     /*
     */
     def visualizar()={
+        
         println("Nombre: " + nombre)
         println("Apellido: " + apellido)
         println("Edad: " + edad)

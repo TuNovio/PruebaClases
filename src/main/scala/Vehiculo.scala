@@ -1,5 +1,5 @@
 class Vehiculo(var tipo:String, var costo:Int){
-    def darTipo={
+    def darTipo={1
         println(tipo)
     }
     def darCosto={
