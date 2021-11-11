@@ -11,6 +11,7 @@ class Vehiculo(var tipo:String, var costo:Int){
 }
 
 object miVehiculo{
+    
     def main(args: Array[String])={
         var mv = new Vehiculo(tipo = "Bus", costo = 120)
         print(mv.darTipo)
